@@ -36,6 +36,9 @@
 1. Запустите образ hello-world.
 1. Приложите скриншот.
 
+**Ответ:**
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/%D0%94%D0%BE%D0%BA%D0%B5%D1%802.png)
+
 ---
 
 ### Задание 4 
