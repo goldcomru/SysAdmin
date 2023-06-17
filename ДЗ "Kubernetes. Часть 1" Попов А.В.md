@@ -7,7 +7,7 @@
 2. В качестве ответа пришлите скриншот результата выполнения команды kubectl get po -n kube-system.
 
 **Ответ:**
-
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%E2%84%961.png)
 ------
 ### Задание 2
 
@@ -52,6 +52,31 @@ spec:
 2. Запустите Deployment в своём кластере и добейтесь его стабильной работы.
 3. В качестве решения пришлите получившийся файл.
 
+
+**Ответ:**
+
+---
+apiVersion: apps/v1
+kind: Deploy
+metadata:
+  name: redis
+spec:
+  selector:
+    matchLabels:
+      app: redis
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: popov
+        image: popov/redis:6.0.13
+        ports:
+        - containerPort: 6379
+        targetPort: 6379
+        
 ------
 ### Задание 3
 
