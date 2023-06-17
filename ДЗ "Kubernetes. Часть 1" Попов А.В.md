@@ -55,6 +55,7 @@ spec:
 
 **Ответ:**
 
+```
 ---
 apiVersion: apps/v1
 kind: Deploy
@@ -76,7 +77,8 @@ spec:
         ports:
         - containerPort: 6379
         targetPort: 6379
-        
+```
+
 ------
 ### Задание 3
 
