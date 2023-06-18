@@ -59,7 +59,7 @@ spec:
 ```
 ---
 apiVersion: apps/v1
-kind: Deploy
+kind: Deployment
 metadata:
   name: redis
 spec:
@@ -73,8 +73,8 @@ spec:
         app: redis
     spec:
       containers:
-      - name: popov
-        image: popov/redis:6.0.13
+      - name: master
+        image: bitnami/redis:6.0.13
         ports:
         - containerPort: 6379
         targetPort: 6379
@@ -94,30 +94,17 @@ spec:
 
 2. В качестве решения пришлите получившиеся команды.
 
+**Ответ:**
+
+sudo kubectl exec -it redis-59766d8d86-9rkbk -- ps aux  
+
+sudo kubectl logs --since=5m redis-59766d8d86-9rkbk
+
+sudo kubectl delete deployment redis-59766d8d86-9rkbk
+
+sudo kubectl port-forward deployment/redis-59766d8d86-9rkbk 6379:7777
+
+
+
 ------
-## Дополнительные задания* (со звёздочкой)
-
-Их выполнение необязательное и не влияет на получение зачёта по домашнему заданию. Можете их решить, если хотите лучше разобраться в материале.
-
----
-
-### Задание 4*
-
-Есть конфигурация nginx:
-
-```
-location / {
-    add_header Content-Type text/plain;
-    return 200 'Hello from k8s';
-}
-```
-
-**Выполните действия:**
-
-1. Напишите yaml-файлы для развёртки nginx, в которых будут присутствовать:
-
- - ConfigMap с конфигом nginx;
- - Deployment, который бы подключал этот configmap;
- - Ingress, который будет направлять запросы по префиксу /test на наш сервис.
-
-2. В качестве решения пришлите получившийся файл.
+------
