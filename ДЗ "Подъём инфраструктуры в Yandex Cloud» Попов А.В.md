@@ -114,7 +114,8 @@ output "external_ip_address_vm_1" {
 
 **Ответ:**
 
-
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/terraform1.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/terraform2.png)
 ---
 
 Дополнительные материалы: 
