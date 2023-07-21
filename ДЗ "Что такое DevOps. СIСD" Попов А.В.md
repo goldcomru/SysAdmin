@@ -29,7 +29,8 @@
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
 **Ответ:**
-
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/jenkins1.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/jenkins2.png)
 
 ---
 
