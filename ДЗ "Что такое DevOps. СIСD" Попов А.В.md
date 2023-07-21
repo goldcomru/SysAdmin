@@ -43,6 +43,11 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
+**Ответ:**
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/jenkins3.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/jenkins4.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/jenkins5.png)
+
 ---
 
 ### Задание 3
