@@ -61,6 +61,6 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
-![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/jenkins8.png)
-![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/jenkins6.png)
-![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/jenkins7.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/Jenkins8.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/Jenkins6.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/Jenkins7.png)
