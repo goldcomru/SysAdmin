@@ -37,9 +37,11 @@
 
 ---
 
-### Задание 2 
+### Задание 2 - 3
 
 Установите Zabbix Agent на два хоста.
+Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
+
 
 #### Процесс выполнения
 1. Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
@@ -54,16 +56,16 @@
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 4. Приложите в файл README.md текст использованных команд в GitHub
 
----
-## Задание 3 со звёздочкой*
-Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
-
 #### Требования к результаты 
 1. Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
---- 
 
-## Критерии оценки
+**Ответ:**
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/zabbix2.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/zabbix3.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/zabbix4.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/zabbix5.png)
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/zabbix6.png)
 
-1. Выполнено минимум 2 обязательных задания
-2. Прикреплены требуемые скриншоты и тексты 
-3. Задание оформлено в шаблоне с решением и опубликовано на GitHub
+
+---
+
