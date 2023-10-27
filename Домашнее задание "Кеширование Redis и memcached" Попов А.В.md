@@ -1,6 +1,5 @@
 # Домашнее задание к занятию «Кеширование Redis/memcached» Попов А.В.
 
----
 
 ### Задание 1. Кеширование 
 
@@ -24,7 +23,7 @@
 *Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.*
 
 **Ответ:**
-
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/%D0%BA%D1%8D%D1%88%201.png)
 
 ---
 
@@ -34,6 +33,9 @@
 
 *Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.*
 
+**Ответ:**
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/%D0%BA%D1%8D%D1%88%202.png)
+
 ---
 
 ### Задание 4. Запись данных в Redis
@@ -41,3 +43,7 @@
 Запишите в Redis несколько ключей с любыми именами и значениями. 
 
 *Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.*
+
+**Ответ:**
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/%D0%BA%D1%8D%D1%88%203.png)
+
