@@ -28,6 +28,9 @@
 
 *Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.*
 
+**Ответ:**
+![Image alt](https://github.com/goldcomru/SysAdmin/blob/main/ELK3.png)
+
 ---
 
 ### Задание 4. Filebeat. 
