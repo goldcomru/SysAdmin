@@ -8,18 +8,25 @@
 
 **Ответ:**
 
-SELECT DISTINCT district FROM address WHERE district LIKE 'K%a' AND district NOT LIKE '% %';
+SELECT DISTINCT district 
+FROM address 
+WHERE district LIKE 'K%a' AND district NOT LIKE '% %';
 
-
+![Image alt]()
 
 ### Задание 2
 
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года **включительно** и стоимость которых превышает 10.00.
 
+**Ответ:**
+
+![Image alt]()
+
 ### Задание 3
 
 Получите последние пять аренд фильмов.
 
+![Image alt]()
 ### Задание 4
 
 Одним запросом получите активных покупателей, имена которых Kelly или Willie. 
@@ -27,3 +34,5 @@ SELECT DISTINCT district FROM address WHERE district LIKE 'K%a' AND district NOT
 Сформируйте вывод в результат таким образом:
 - все буквы в фамилии и имени из верхнего регистра переведите в нижний регистр,
 - замените буквы 'll' в именах на 'pp'.
+
+![Image alt]()
